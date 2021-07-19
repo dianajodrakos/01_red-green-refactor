@@ -1,6 +1,6 @@
 
 export function copyAndPush(array, item) {
-  const newArray = array.slice();
+  const newArray = [...array];
   newArray.push(item);
   return newArray;
 }
